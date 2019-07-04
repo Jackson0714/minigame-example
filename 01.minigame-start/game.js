@@ -23,7 +23,7 @@ setInterval(function () {
     })
   }
   if (enemyImgY >= canvas.height) {
-    rectY = 0
+    enemyImgX = 0
   }
 }, 16)
 
